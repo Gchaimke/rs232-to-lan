@@ -1,0 +1,112 @@
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\bin\Debug\wellerZS.exe.config
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\bin\Debug\wellerZS.exe.manifest
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\bin\Debug\wellerZS.application
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\bin\Debug\wellerZS.exe
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\bin\Debug\wellerZS.pdb
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\bin\Debug\wellerZS.xml
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.FormMain.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.FormSMTP.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.Resources.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.vbproj.GenerateResource.Cache
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.exe.manifest
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.application
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.exe
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.xml
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb\obj\Debug\wellerZS.pdb
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb (1)\bin\Debug\wellerZS.exe.config
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb (1)\obj\Debug\wellerZS.exe
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb (1)\obj\Debug\wellerZS.xml
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb (1)\obj\Debug\wellerZS.pdb
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\bin\Debug\wellerZS.exe.config
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.exe
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.xml
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.pdb
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\bin\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\bin\Debug\wellerZS.application
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\bin\Debug\wellerZS.exe
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\bin\Debug\wellerZS.pdb
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\bin\Debug\wellerZS.xml
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.FormMain.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.FormSMTP.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.Resources.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.vbproj.GenerateResource.Cache
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.application
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.NetwokSettings.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V2\obj\Debug\wellerZS.SchedulerSettings.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.exe.config
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.exe
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.xml
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.pdb
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.vbprojResolveAssemblyReference.cache
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.FormMain.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.FormSMTP.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.Resources.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.NetwokSettings.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.SchedulerSettings.resources
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.vbproj.GenerateResource.Cache
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.exe.manifest
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.application
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.exe
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.pdb
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.xml
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.exe.manifest
+D:\GoogleDrive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.application
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.exe.config
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.exe
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.xml
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.pdb
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.vbprojResolveAssemblyReference.cache
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.application
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.exe
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.pdb
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\bin\Debug\wellerZS.xml
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.FormMain.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.FormSMTP.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.Resources.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.NetwokSettings.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.SchedulerSettings.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.vbproj.GenerateResource.Cache
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.application
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V3\obj\Debug\wellerZS.PowerSettings.resources
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.exe.config
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.exe
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.xml
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.pdb
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.application
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.exe
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.pdb
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.xml
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.vbprojResolveAssemblyReference.cache
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.FormMain.resources
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.FormSMTP.resources
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.Resources.resources
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.NetwokSettings.resources
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.PowerSettings.resources
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.SchedulerSettings.resources
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.vbproj.GenerateResource.Cache
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.application
+C:\Users\haimg\Desktop\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.About.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.exe.config
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.application
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.exe
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.pdb
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\bin\Debug\wellerZS.xml
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.About.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.FormMain.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.FormSMTP.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.Resources.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.NetwokSettings.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.PowerSettings.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.SchedulerSettings.resources
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.vbproj.GenerateResource.Cache
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.exe.manifest
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.application
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.exe
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.xml
+C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.pdb
