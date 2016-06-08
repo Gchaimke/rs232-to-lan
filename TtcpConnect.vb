@@ -1,13 +1,9 @@
 ﻿Option Strict Off
 Option Infer On
 
-Imports System.Net
 Imports System.Net.Sockets
 Imports System.Text
-Imports System
-Imports System.IO
 Imports System.Threading
-Imports System.Net.NetworkInformation
 Module TtcpConnect
     Function TcpConnecthex(ByVal adress As String, ByVal port As Integer, ByVal mydata As Byte()) As String
         Dim returndata As StringBuilder = New StringBuilder()

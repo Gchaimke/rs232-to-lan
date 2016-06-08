@@ -1,5 +1,5 @@
 ﻿Imports System.IO
-Public Class FormSMTP
+Public Class EmailSettings
     Dim password As String = "QopRmjknyigyu3knj32"
     Sub TestEncoding()
         Dim plainText As String = TxbPass.Text

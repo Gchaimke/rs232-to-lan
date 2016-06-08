@@ -110,3 +110,23 @@ C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\
 C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.exe
 C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.xml
 C:\Users\haimg\Google Drive\Програмы\wellerZS\wellerZS_vb V1.0.0.20\obj\Debug\wellerZS.pdb
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\bin\Debug\wellerZS.exe.config
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\bin\Debug\wellerZS.exe.manifest
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\bin\Debug\wellerZS.application
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\bin\Debug\wellerZS.exe
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\bin\Debug\wellerZS.pdb
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\bin\Debug\wellerZS.xml
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.vbprojResolveAssemblyReference.cache
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.About.resources
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.FormMain.resources
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.EmailSettings.resources
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.Resources.resources
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.GlobalSettings.resources
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.PowerSettings.resources
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.SchedulerSettings.resources
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.vbproj.GenerateResource.Cache
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.exe.manifest
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.application
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.exe
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.xml
+C:\Users\gchai_000\Source\Repos\rs232-to-lan\obj\Debug\wellerZS.pdb

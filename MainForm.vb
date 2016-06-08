@@ -3,10 +3,7 @@ Option Infer On
 
 Imports System.Net
 Imports System.Net.Sockets
-Imports System.Text
-Imports System
 Imports System.IO
-Imports System.Threading
 Imports System.Net.NetworkInformation
 Imports System.ComponentModel
 
@@ -15,12 +12,8 @@ Public Class FormMain
     Delegate Sub PingServers()
     'Define a Scheduler
     Dim sch As New Scheduler.Scheduler
-    Dim smtp As New FormSMTP
     Dim Aboutmenu As New About
     Dim setSchd As New SchedulerSettings
-    Dim setMsh As New NetwokSettings
-    Dim setPower As New PowerSettings
-
 
     Public addSch1 As String
     Public addSch2 As String
@@ -112,13 +105,13 @@ Public Class FormMain
 
     Private Sub pingServer()
         LvMashines.Items.Clear()
-        Dim clients As Integer = CInt(setMsh.TxbCount.Text)  'ob'yavlenie clients collichestvo IP
-        setMsh.CheckIP()
-        ip = CType(setMsh.TxbIP4.Text, Integer)
-        port = CType(setMsh.TxbPort.Text, Integer)
+        Dim clients As Integer = CInt(My.Settings.ZerroSmogCount)  'ob'yavlenie clients collichestvo IP
+        GlobalSettings.CheckIP()
+        ip = CType(My.Settings.ip4, Integer)
+        port = CType(My.Settings.Port, Integer)
         progressStatus = 100 / clients
         Do
-            Dim server As String = setMsh.TxbIP1.Text & "." & setMsh.TxbIP2.Text & "." & setMsh.TxbIP3.Text & "." & ip 'obedinenie ip
+            Dim server As String = My.Settings.ip1 & "." & My.Settings.ip2 & "." & My.Settings.ip3 & "." & ip 'obedinenie ip
             ' nachalo loop Do
             clients -= 1
             BackgroundWorker1.ReportProgress(progressStatus)
@@ -143,14 +136,14 @@ Start:
                     'serialSubHex = "031"
                     'statusSub = "100"
                     If serialSubHex = "nne" And statusSub = "rro" Then 'if answer after correction is "nne" & "rro" then
-                        EmlText = "Can't send the data to " & server & ":" & port & ", check cable connection between wi-fi module and Zero-Smog"
-                        mStatus = "Port or cable error"
+                        EmlText = "Can't send the data to " & server & ":" & port & ", check cable connection between RS232-LAN module and Zero-Smog, or check if mashine is power on"
+                        mStatus = "Error:Check Port,Cable,Power"
                         If My.Settings.ChBEmailCable = True Then
                             SendEmail("Weller Zero-Smog Cable problem", EmlText)
                         End If
                     ElseIf serialSubHex = "nne" And statusSub = "abl" Then 'if answer after correction is "nne" & "abl" then
-                        EmlText = "Can't send the data to " & server & ":" & port & ", check cable connection between wi-fi module and Zero-Smog"
-                        mStatus = "Cable problem"
+                        EmlText = "Can't send the data to " & server & ":" & port & ", check cable connection between RS232-LAN module and Zero-Smog, or check if mashine is power on"
+                        mStatus = "Error:Check Port,Cable,Power"
                         If My.Settings.ChBEmailCable = True Then
                             SendEmail("Weller Zero-Smog Cable problem", EmlText)
                         End If
@@ -358,23 +351,23 @@ Start:
     End Sub
 
     Private Sub ManageMashineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManageMashineToolStripMenuItem.Click
-        setPower.ShowDialog()
+        PowerSettings.ShowDialog()
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
         System.Diagnostics.Process.Start("http://avdor-hlt.com")
     End Sub
 
-    Private Sub IpSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IpSettingsToolStripMenuItem.Click
-        setMsh.ShowDialog()
+    Private Sub GlobalSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GlobalSettingsToolStripMenuItem.Click
+        GlobalSettings.ShowDialog()
     End Sub
 
     Private Sub EmailOptionsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmailOptionsToolStripMenuItem.Click
-        smtp.ShowDialog()
+        EmailSettings.ShowDialog()
     End Sub
 
     Private Sub SchedulerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SchedulerToolStripMenuItem.Click
-        setSchd.ShowDialog()
+        SchedulerSettings.ShowDialog()
     End Sub
 
     Private Sub AvdorhltcomToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AvdorhltcomToolStripMenuItem.Click
@@ -394,6 +387,6 @@ Start:
     End Sub
 
     Private Sub AboutProgramToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutProgramToolStripMenuItem.Click
-        Aboutmenu.ShowDialog()
+        About.ShowDialog()
     End Sub
 End Class

@@ -137,17 +137,17 @@
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="email.vb" />
     <Compile Include="EncryptDecryptVB.vb" />
-    <Compile Include="Form1.vb">
+    <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="EmailSettings.Designer.vb">
+      <DependentUpon>EmailSettings.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="EmailSettings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HexStringByteArrayConverter.vb" />
@@ -166,10 +166,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="NetwokSettings.Designer.vb">
-      <DependentUpon>NetwokSettings.vb</DependentUpon>
+    <Compile Include="GlobalSettings.Designer.vb">
+      <DependentUpon>GlobalSettings.vb</DependentUpon>
     </Compile>
-    <Compile Include="NetwokSettings.vb">
+    <Compile Include="GlobalSettings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PowerSettings.Designer.vb">
@@ -191,11 +191,11 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="EmailSettings.resx">
+      <DependentUpon>EmailSettings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -203,8 +203,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NetwokSettings.resx">
-      <DependentUpon>NetwokSettings.vb</DependentUpon>
+    <EmbeddedResource Include="GlobalSettings.resx">
+      <DependentUpon>GlobalSettings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PowerSettings.resx">
       <DependentUpon>PowerSettings.vb</DependentUpon>
@@ -215,6 +215,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>

@@ -6,131 +6,150 @@ wellerZS
 </name>
 </assembly>
 <members>
-<member name="P:wellerZS.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:wellerZS.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="P:wellerZS.My.Resources.Resources.logo">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:wellerZS.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="M:wellerZS.Scheduler.Scheduler.#ctor">
-	<summary>
- Contructor
- </summary>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.Start">
-	<summary>
- Start The Scheduler
- </summary>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.Stop">
-	<summary>
- Stop the Scheduler
- </summary>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.AddEvent(System.Delegate,System.Object[])">
-	<summary>
- Add An Event To execute when the Scheduler is Ticked
- <example><c><para>Dim msd As ShowMessage = AddressOf DisplayMessage</para>
-				<para>sch.AddEvent(msd)</para></c></example>
-	</summary>
-	<param name="DelegateFuntion">The Delegate Function Name</param>
-	<param name="ParametersToTheFunction">The Parameters to the Function passed as an Array of Objects</param>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(wellerZS.Scheduler.Scheduler.Scheduled,System.DateTime)">
-	<summary>
- Add a Schedule Type denoting when to Execute the Events....
- <para>If loading a Once Executable Schedule Check the Other Overload</para>
-	</summary>
-	<param name="Schedule">An Enum of Scheduled Type</param>
-	<param name="When">Date and Time when to Begin Execution of the Event</param>
-	<remarks>Check the Other Overloads as well</remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.DateTime)">
-	<summary>
- Add a Schedule that will be Executed JUST ONCE
- </summary>
-	<param name="When">The Date/Time when the Execution will be done</param>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.TimeSpan)">
-	<summary>
- Add a Schedule, and Define a Perfect Time Slack between the Different Executes
- <para>The First Execution will be NOW</para>
-	</summary>
-	<param name="TimeSpn">A System.Windows.Forms.TimeSpan Object</param>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.DateTime,System.TimeSpan)">
-	<summary>
- Add a Schedule, with Date/Time when to begin and The Perfect TimeSpan between Executions
- </summary>
-	<param name="When">A Date/Time Object When to Begin Scheduling</param>
-	<param name="TimeSpn">A System.Windows.Forms.TimeSpan Object 
- <para>Defining Spacing between the Calls</para></param>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.String[])">
-	<summary>
- Add a Schedule, Defining a Daily Execution Time Table
- <example><c>AddSchedule("09:25", "21:25")</c> 
- Two Scheduled Times set One for Morning and Another for Evening</example>
-	</summary>
-	<param name="Times"><example><c>AddSchedule("09:25", "21:25")</c> 
- Two Scheduled Times set One for Morning and Another for Evening</example></param>
-	<remarks></remarks>
-</member><member name="M:wellerZS.Scheduler.Scheduler.Event.#ctor(System.Delegate,System.Object[])">
-	<summary>
- Constructor For Event Structure
- </summary>
-	<param name="DelegateFunction">The Delegate Name for the Function</param>
-	<param name="ParametersForExecution">The Parameters for Execution of the Function</param>
-	<remarks></remarks>
-</member><member name="T:wellerZS.Scheduler.Scheduler.Event">
-	<summary>
- Event Structure for Storing Events
- </summary>
-	<remarks></remarks>
-</member><member name="T:wellerZS.Scheduler.Scheduler.Scheduled">
-	<summary>
- Enumeration of the Schedule Types
- </summary>
-	<remarks></remarks>
-</member><member name="T:wellerZS.Scheduler.Scheduler">
-	<summary>
- A Class to Add Schedules to the Program just like we have in SQL Server
- <para>This Class has Events also for Errors..... Do Use the Events</para>
-		<para>All Exceptions are thrown to The Event.</para>
-		<para>Use Contructuctor to Load the Class</para>
-	</summary>
-	<remarks>My Best Invention Till Date</remarks>
-</member><member name="M:wellerZS.HexStringByteArrayConverter.BytesToHexString(System.Byte[])">
-	<summary> 
+<member name="M:wellerZS.HexStringByteArrayConverter.BytesToHexString(System.Byte[])">
+ <summary> 
  Convert a byte array to hex string. Example output: "7F2C4A00". 
   
  Alternatively, you can also use the BitConverter.ToString method to  
  convert byte array to string of hexadecimal pairs separated by hyphens,  
  where each pair represents the corresponding element in value; for  
  example, "7F-2C-4A-00". 
- </summary>
-	<param name="bytes">An array of bytes</param>
-	<returns>Hex string</returns>
-</member><member name="M:wellerZS.HexStringByteArrayConverter.HexStringToBytes(System.String)">
-	<summary> 
+ </summary> 
+ <param name="bytes">An array of bytes</param> 
+ <returns>Hex string</returns> 
+</member>
+<member name="M:wellerZS.HexStringByteArrayConverter.HexStringToBytes(System.String)">
+ <summary> 
  Convert a hex string to byte array. 
- </summary>
-	<param name="str">hex string. For example, "FF00EE11"</param>
-	<returns>An array of bytes</returns>
-</member><member name="M:wellerZS.HexStringByteArrayConverter.VerifyHexString(System.String)">
-	<summary> 
+ </summary> 
+ <param name="str">hex string. For example, "FF00EE11"</param> 
+ <returns>An array of bytes</returns> 
+</member>
+<member name="M:wellerZS.HexStringByteArrayConverter.VerifyHexString(System.String)">
+ <summary> 
  Verify the format of the hex string. 
+ </summary> 
+</member>
+<member name="T:wellerZS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:wellerZS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:wellerZS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:wellerZS.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:wellerZS.Scheduler.Scheduler">
+ <summary>
+ A Class to Add Schedules to the Program just like we have in SQL Server
+ <para>This Class has Events also for Errors..... Do Use the Events</para>
+ <para>All Exceptions are thrown to The Event.</para>
+ <para>Use Contructuctor to Load the Class</para>
  </summary>
+ <remarks>My Best Invention Till Date</remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.#ctor">
+ <summary>
+ Contructor
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.Start">
+ <summary>
+ Start The Scheduler
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.Stop">
+ <summary>
+ Stop the Scheduler
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.AddEvent(System.Delegate,System.Object[])">
+ <summary>
+ Add An Event To execute when the Scheduler is Ticked
+ <example><c><para>Dim msd As ShowMessage = AddressOf DisplayMessage</para>
+ <para>sch.AddEvent(msd)</para></c></example>
+ </summary>
+ <param name="DelegateFuntion">The Delegate Function Name</param>
+ <param name="ParametersToTheFunction">The Parameters to the Function passed as an Array of Objects</param>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(wellerZS.Scheduler.Scheduler.Scheduled,System.DateTime)">
+ <summary>
+ Add a Schedule Type denoting when to Execute the Events....
+ <para>If loading a Once Executable Schedule Check the Other Overload</para>
+ </summary>
+ <param name="Schedule">An Enum of Scheduled Type</param>
+ <param name="When">Date and Time when to Begin Execution of the Event</param>
+ <remarks>Check the Other Overloads as well</remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.DateTime)">
+ <summary>
+ Add a Schedule that will be Executed JUST ONCE
+ </summary>
+ <param name="When">The Date/Time when the Execution will be done</param>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.TimeSpan)">
+ <summary>
+ Add a Schedule, and Define a Perfect Time Slack between the Different Executes
+ <para>The First Execution will be NOW</para>
+ </summary>
+ <param name="TimeSpn">A System.Windows.Forms.TimeSpan Object</param>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.DateTime,System.TimeSpan)">
+ <summary>
+ Add a Schedule, with Date/Time when to begin and The Perfect TimeSpan between Executions
+ </summary>
+ <param name="When">A Date/Time Object When to Begin Scheduling</param>
+ <param name="TimeSpn">A System.Windows.Forms.TimeSpan Object 
+ <para>Defining Spacing between the Calls</para></param>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.AddSchedule(System.String[])">
+ <summary>
+ Add a Schedule, Defining a Daily Execution Time Table
+ <example><c>AddSchedule("09:25", "21:25")</c> 
+ Two Scheduled Times set One for Morning and Another for Evening</example>
+ </summary>
+ <param name="Times"><example><c>AddSchedule("09:25", "21:25")</c> 
+ Two Scheduled Times set One for Morning and Another for Evening</example></param>
+ <remarks></remarks>
+</member>
+<member name="T:wellerZS.Scheduler.Scheduler.Event">
+ <summary>
+ Event Structure for Storing Events
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:wellerZS.Scheduler.Scheduler.Event.#ctor(System.Delegate,System.Object[])">
+ <summary>
+ Constructor For Event Structure
+ </summary>
+ <param name="DelegateFunction">The Delegate Name for the Function</param>
+ <param name="ParametersForExecution">The Parameters for Execution of the Function</param>
+ <remarks></remarks>
+</member>
+<member name="T:wellerZS.Scheduler.Scheduler.Scheduled">
+ <summary>
+ Enumeration of the Schedule Types
+ </summary>
+ <remarks></remarks>
 </member>
 </members>
 </doc>

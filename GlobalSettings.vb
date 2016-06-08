@@ -1,7 +1,7 @@
 ﻿Imports System.Net
 Imports System.Net.Sockets
 
-Public Class NetwokSettings
+Public Class GlobalSettings
 
     Public Sub CheckIP()
         Try
